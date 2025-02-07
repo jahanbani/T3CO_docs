@@ -10,7 +10,7 @@ extra_css:
 extra_javascript:
   - https://code.jquery.com/jquery-3.6.0.min.js
   - https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js
-  - stylesheets/datatables.js  # Custom script to initialize DataTables
+  - stylesheets/datatables.js 
 
 plugins:
   - search
@@ -80,21 +80,21 @@ nav:
       - Ledger: pages/ledger_outputs_descriptions.md
     - API Reference: 
       - Input Data SubModules:
-        - Vehicle: pages/vehicle.md
-        - Scenario: pages/scenario.md
-        - Config: pages/config.md  
+        - Vehicle: modules/vehicle.md
+        - Scenario: modules/scenario.md
+        - Config: modules/config.md  
       - Energy SubModules:
-        - Energy: pages/energy.md
-        - FASTSim Wrapper: pages/fastsim_wrapper.md
+        - Energy: modules/energy.md
+        - FASTSim Wrapper: modules/fastsim_wrapper.md
       - Cost SubModules:
-        - Capital Costs: pages/capital_costs.md
-        - Operating Costs: pages/operating_costs.md
-        - Opportunity Costs: pages/opportunity_costs.md
+        - Capital Costs: modules/capital_costs.md
+        - Operating Costs: modules/operating_costs.md
+        - Opportunity Costs: modules/opportunity_costs.md
       - TCO SubModules:
-        - TCO Calc Per Year: pages/tcocalc.md
-        - Ledger: pages/ledger.md
+        - TCO Calc Per Year: modules/tcocalc.md
+        - Ledger: modules/ledger.md
       - CLI SubModules:
-        - Sweep: pages/sweep.md
+        - Sweep: modules/sweep.md
       - Utility SubModules:
-        - Demo Files Installer: pages/demo_files_installer.md
-        - Print Class Objects: pages/print_class_objects.md
+        - Demo Files Installer: modules/demo_files_installer.md
+        - Print Class Objects: modules/print_class_objects.md
