@@ -3,6 +3,7 @@
 **Filter Options:**
 - **Units:** <select id="configUnitsFilter"><option value="">All</option></select>
 - **Data Type:** <select id="configdatatypeFilter"><option value="">All</option></select>
+<div class="button-container"><button id="downloadTemplateBtn">Download Vehicle Template</button></div>
 
 <div class="table-container">
     <table id="configTable">

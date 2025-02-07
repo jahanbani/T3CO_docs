@@ -7,7 +7,8 @@
     <option value="BEV">BEV</option>
     <option value="HEV">HEV</option>
     <option value="FCEV">FCEV</option></select>
-- **Data Type:** <select id="datatypeFilter"><option value="">All</option></select>
+- **Data Type:** <select id="datatypeFilter"><option value="">All</option></select> 
+<div class="button-container"><button id="downloadTemplateBtn">Download Vehicle Template</button></div>
 
 <div class="table-container">
     <table id="vehicleTable">

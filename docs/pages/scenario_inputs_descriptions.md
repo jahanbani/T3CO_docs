@@ -16,6 +16,7 @@
     <option value="OpportunityCosts">OpportunityCosts</option>
     <option value="Optimization">Optimization</option></select>
 - **Data Type:** <select id="scenariodatatypeFilter"><option value="">All</option></select>
+<div class="button-container"><button id="downloadTemplateBtn">Download Scenario Template</button></div>
 
 <div class="table-container">
     <table id="scenarioTable">
