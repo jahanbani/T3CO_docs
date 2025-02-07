@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
             let unitsValue = unitsFilterId ? document.getElementById(unitsFilterId).value.toLowerCase() : "";
             let dataTypeValue = dataTypeFilterId ? document.getElementById(dataTypeFilterId).value.toLowerCase() : "";
             let powertrainValue = powertrainFilterId ? document.getElementById(powertrainFilterId).value.toLowerCase() : "";
-            let t3coComponentValue = t3coComponentFilterId ? document.getElementById(t3coComponentFilterId).value.toLowerCase() : "";
+            let t3coComponentValues = t3coComponentFilterId ? Array.from(document.getElementById(t3coComponentFilterId).selectedOptions).map(option => option.value.toLowerCase()) : [];
             let categoryValue = categoryFilterId ? document.getElementById(categoryFilterId).value.toLowerCase() : "";
 
             table.rows().every(function () {
@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 let matchUnits = unitsValue === "" || rowUnits === unitsValue;
                 let matchDataType = dataTypeValue === "" || rowDataType === dataTypeValue;
                 let matchPowertrain = powertrainValue === "" || rowPowertrain.includes(powertrainValue);
-                let matchT3coComponent = t3coComponentValue === "" || rowT3coComponent.includes(t3coComponentValue);
+                let matchT3coComponent = t3coComponentValues.length === 0 || t3coComponentValues.some(value => rowT3coComponent.includes(value));
                 let matchCategory = categoryValue === "" || rowCategory === categoryValue;
 
                 if (matchUnits && matchDataType && matchPowertrain && matchT3coComponent && matchCategory) {
