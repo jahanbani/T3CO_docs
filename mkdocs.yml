@@ -96,6 +96,7 @@ nav:
     - Installation: installation.md
     - Quick Start: quick_start.md
     - Overview: T3CO_Overview.md
+    - Cost and Tool Features: pages/cost_and_tool_features.md
     - Inputs: 
       - Vehicle: pages/vehicle_inputs_descriptions.md
       - Scenario: pages/scenario_inputs_descriptions.md
