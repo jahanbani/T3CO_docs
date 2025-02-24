@@ -100,7 +100,7 @@
             <td>ESS Charge to Maximize Fuel Converter Efficiency</td>
             <td>%</td>
             <td>ESS charge effort toward max FC efficiency</td>
-            <td>BEV, HEV, FCEV</td>
+            <td>HEV, FCEV</td>
             <td>float</td>
         </tr>
         <tr>
@@ -108,7 +108,7 @@
             <td>ESS Discharge to Maximize Fuel Converter Efficiency</td>
             <td>%</td>
             <td>ESS discharge effort toward max FC efficiency</td>
-            <td>BEV, HEV, FCEV</td>
+            <td>HEV, FCEV</td>
             <td>float</td>
         </tr>
         <tr>
